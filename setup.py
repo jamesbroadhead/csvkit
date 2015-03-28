@@ -17,7 +17,7 @@ if sys.version_info < (2, 7):
     install_requires.append('simplejson>=3.6.3')
 
 if sys.version_info[0] == 2:
-    install_requires.append('dbf==0.94.003')
+    install_requires.append('dbf==0.94.3')
 
 setup(
     name='csvkit',
